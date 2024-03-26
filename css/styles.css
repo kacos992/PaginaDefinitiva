@@ -4,12 +4,10 @@
     box-sizing: border-box;
     border-color: red;
   }
-  
   body {
     background: #292929;
     font-family: 'Roboto';   
   }
-  
   .header_index{
     display: flex;
     flex-direction: row;
@@ -68,23 +66,20 @@
     justify-content: center;
     align-items: end;
     width: 100%;
-    height: 500px;
+    height: 600px;
     background-image:url("../assets/Images/portada.jpg");
     background-size:cover;
+    background-position:center;
     background-repeat: no-repeat;
     opacity: 800px;
   }
-
   .TituloPortada{
-   /** margin-top: 150px ;
-    margin-left: 800px; **/
     color:rgb(255, 255, 255);
     font-family: "Poppins", sans-serif;
     font-size: 30px;
     margin-right: 20px;
     background-color: orange;
   }
-
   .divisorio{
     display: flex;
     flex-direction: column;
@@ -92,7 +87,6 @@
     align-items: center;
     box-shadow: 5px 5px 5px grey;
   }
-
   .corte{ 
     display: flex;
     justify-content: center;
@@ -106,11 +100,9 @@
     opacity: 70%;
     font-family: "Poppins", sans-serif;
   }
-
   .corte h2{
     /**margin-top: 15px;**/
   }
-
   .cuerpo{
     display: flex;
     flex-direction: row;
@@ -120,7 +112,6 @@
     background-size:100% 110%;
     
   }
-
   .contenedor1{
     display: flex;
     flex-direction: column;
@@ -128,7 +119,6 @@
     width: 50%;
     height: 80%;   
   }
-
   .contenedor1 h2{
     margin-top: 30px;
     margin-left: 10px;
@@ -149,29 +139,23 @@
     width: 85%;
     height: 80%;
     margin-right: 0px;
-    
   }
   .imgBolsa{
     width: 85%;
     height: 80%;
     margin-right: 0px;    
   }
-
   footer{
-    
     background-image: url("../assets/Images/fondo_footer.jpg");
-    
     position: absolute;
     width: 100%;
     height: 360px;
   }
-
   footer section h1{
     text-align: center;
     color: white;
     margin-top: 25px;
   }
- 
   .DatosContacto{
     display: flex;
     flex-direction: rows;
@@ -180,32 +164,26 @@
     gap: 10px;
     margin-top: 15px;
   }
-
   .imgMail{
     margin-top: 50px;
     width: 30px;
     height: 30px;
     /** margin-left: 39%; **/
-    
   }
-  
   .mailDescripcion{
     color: whitesmoke;
     margin-top: 50px;
   }
-
   .imgTelefono{
     margin-top: 15px;
     /** margin-left: 39%; **/
     width: 30px;
     height: 30px;
   }
-  
   .telefonoDescripcion{
     color: white;
     margin-top: 26px;
   }
-
   .RedesSociales{
     display: flex;
     flex-direction: row;
@@ -215,7 +193,6 @@
     gap: 30px;
     margin-bottom: 0px;
   }
-
   .RedesSociales img{
     width: 30px;
     height: 30px;
@@ -254,8 +231,6 @@
     width: 50%;
     height: 100%;
     gap: 20px;
-    
-    
   }
   .nosotros_Divisorio2{
     background-image: url("../assets/Images/Produccion\ operario.jpg");
@@ -267,30 +242,25 @@
     width: 65%;
     height: 100%;
   }
-
   .nosotros_p1{
     /**margin-top: 50px;**/
     margin-left: 10px;
     font-size: 25px;
   }
   .nosotros_p2{
-   /** margin-top: 80px; **/
     margin-left: 10px;
     font-size: 25px;
     font-weight: bold;
     color: rgb(0, 0, 0);
   }
   .nosotros_p3{
-   /** margin-top: 110px; **/
     margin-left: 10px;
     font-size: 25px;
   }
-
   .nosotros_Divisorio2 img{
     width: 90%;
     height: 98%;
   }
-
   .productos_main{
     display: flex;
     flex-direction: column;
@@ -332,7 +302,6 @@
     justify-content: center;
     height: 400px;
     width: 100%;
-   /** background-image: url("../assets/Images/pACK-cODIN\ IMAGEN\ WEB.png"); **/
   }
   .productos_divisorio1_2{
     display: flex;
@@ -351,7 +320,6 @@
   .productos_divisorio1_2_1 img{
    max-width: 190px;
    max-height: 50px;
-
   }
   .productos_divisorio1_2_2{
     display: flex;
@@ -383,8 +351,7 @@
     flex-direction: row;
     justify-content: center;
     height: 400px;
-    width: 100%;
-   /** background-image: url("../assets/Images/pACK-cODIN\ IMAGEN\ WEB.png"); **/
+    width: 100%; 
   }
   .productos_divisorio2_1 img{
     width: 100%;
@@ -407,7 +374,6 @@
   .productos_divisorio2_2_1 img{
     max-width: 150px;
     max-height: 50px;
-
   }
   .productos_divisorio2_2_2{
     display: flex;
@@ -423,7 +389,7 @@
     margin-left: 15px;
     margin-right: 15px;
   }
-   .Productos_Divisorio2{  
+  .Productos_Divisorio2{  
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -433,7 +399,7 @@
     font-weight: 200;
     font-style: normal;
     font-size: 25px;
-    margin-top: 40px;
+    margin-top: 40px; 
   }
   .productos_divisorio2_1{
     display: flex;
@@ -464,7 +430,6 @@
   .productos_divisorio2_2_1 img{
     max-width: 190px;
     max-height: 50px;
-
   }
   .productos_divisorio2_2_2{
     display: flex;
@@ -498,7 +463,6 @@
     justify-content: center;
     height: 400px;
     width: 100%;
-   /** background-image: url("../assets/Images/pACK-cODIN\ IMAGEN\ WEB.png"); **/
   }
   .productos_divisorio3_1 img{
     width: 100%;
@@ -521,7 +485,6 @@
   .productos_divisorio3_2_1 img{
     max-width: 190px;
     max-height: 50px;
-
   }
   .productos_divisorio3_2_2{
     display: flex;
@@ -550,7 +513,6 @@
     background-image: url(../assets/Images/Fondo\ Web\ 2.png);
     background-position: center;
   }
-
   .Contacto_Main h1{
     margin-top: 10px;
     margin-left: 18px;
@@ -575,7 +537,6 @@
     height: 100%;
     font-size: 25px;
   }
-
   .Contacto_Divisorio1 div{
     display: flex;
     flex-direction: column;
@@ -625,7 +586,6 @@
   padding-top: 100px;
   padding-bottom: 10px;
 }
-
 .grid_item1{
 grid-area: grid_1;
 display: flex;
@@ -651,8 +611,7 @@ display: flex;
 flex-direction: column;
 justify-content:center;
 align-items: center;
-background-color: transparent;
-  
+background-color: transparent; 
 }
 .grid_item4{
   grid-area: grid_4;
@@ -823,48 +782,24 @@ background-color: transparent;
   }
 }
 @media (max-width: 320px){
+  .header_index{
+    box-shadow: 1px 1px 1px 1px grey;
+  }
   .main_index{
-    height: 450px;
+    /**height: 450px;**/
+  }
+  .portada{ 
+    align-items:center;
+    background-size:cover;
+    background-position:left;
+  }
+  .portada h1{
+    margin-top: 3px;
+    margin-left: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  footer{
+    font-size: 12px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**@media (max-width: 771px)
-{
-   .abrir_menu, .cerrar_menu{
-    display: block;
-   }
-   .nav{
-    opacity: 0;
-    visibility: hidden;
-   }
-   .barra_navegacion{
-    display: none;
-   }
-
-   .nav{
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    gap: 1rem; 
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #292929;
-    padding: 2rem;
-    box-shadow: 0 0 0 100vmax rgba(0,0,0, .5);
-   }
-}**/
-
