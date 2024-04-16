@@ -1,0 +1,84 @@
+$color_fondo_titulo : orange;
+
+.main_index {
+    display: flex;
+    flex-direction: column;}
+  
+    .portada {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        width: 100%;
+        height: 600px;
+        background-image: url("../assets/Images/portada.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 800px;
+    }.TituloPortada {
+        color: rgb(255, 255, 255);
+        /**font-family: "Poppins", sans-serif;
+        font-size: 30px;**/
+        margin-right: 20px;
+        font-size: 30px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 350;
+        font-style: normal;
+        font-size: 30px;
+        background-color: $color_fondo_titulo;
+    }.divisorio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 5px 5px 5px grey;
+    }.corte {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("../assets/Images/Corte.png");
+        width: 100%;
+        height: 65px;
+        color: white;
+        text-align: center;
+        font-size: 18px;
+        opacity: 70%;
+        font-family: "Poppins", sans-serif;
+    }.cuerpo {
+        display: flex;
+        flex-direction: row;
+        background-image: url(../assets/Images/fondo_Menu.jpg);
+        width: 100%;
+        height: 410px;
+        background-size: 100% 110%;
+    } .contenedor1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 50%;
+        height: 80%;
+        padding: 10px 10px 10px;
+    }.contenedor1 h2 {
+        margin-top: 30px;
+        margin-left: 10px;
+    }.contenedor2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 50%;
+        height: 80%;
+        padding: 10px 10px 10px;
+    }.contenedor2 h2 {
+        margin-top: 30px;
+        margin-right: 10px;
+    }.imgGrano {
+        width: 85%;
+        height: 80%;
+        margin-right: 0px;    
+    } .imgBolsa {
+        width: 85%;
+        height: 80%;
+        margin-right: 0px;     
+    }  
+

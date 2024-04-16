@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-color: red;
+  }
+
+$fondo_header: #252525;
+$fuente_header:"Roboto";
+
+  body {
+    background: $fondo_header;
+    font-family: $fuente_header;
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-items: center;
+        align-items: center;
+        background-position: center;
+        height: 80px;
+        box-shadow: 5px 5px 5px grey;
+        background-color: rgba(43, 42, 42, 0.9254901961);
+        opacity: 86%;
+        .logo {
+            width: 200px;
+        }
+        nav #toggle, nav label {
+        display: none;
+        }
+        ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        width: 100%;
+        height: 80px;
+        gap: 10px;
+        }  
+            nav ul li a {
+            text-decoration: none;
+            color: #444;
+            font-weight: bold;
+            margin-right: 35px;
+            color: whitesmoke;
+            }     
+        nav ul li a:hover {
+        color: orange;
+        }  
+    }
+}
+footer 
+{
+    background-image: url("../assets/Images/fondo_footer.jpg");
+    position: absolute;
+    width: 100%;
+    height: 360px;
+        section h1 {
+            text-align: center;
+            color: white;
+            margin-top: 30px;
+            }.DatosContacto {
+                display: flex;
+                flex-direction: rows;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                margin-top: 15px;
+                }.imgMail {
+                    margin-top: 50px;
+                    width: 30px;
+                    height: 30px;       
+                }.mailDescripcion {
+                    color: whitesmoke;
+                    margin-top: 50px;
+                }.imgTelefono {
+                    margin-top: 15px;          
+                    width: 30px;
+                    height: 30px;
+                }.telefonoDescripcion {
+                    color: white;
+                    margin-top: 26px;
+                } .RedesSociales {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    width: 100%;
+                    height: 50px;
+                    gap: 30px;
+                    margin-bottom: 0px;
+                }.RedesSociales img {
+                    width: 30px;
+                    height: 30px;            
+                    margin-top: 45px;
+                }           
+}

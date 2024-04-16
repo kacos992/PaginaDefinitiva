@@ -1,0 +1,111 @@
+$color_titulo : rgb(196, 62, 13);
+
+.Contacto_Main {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../assets/Images/Fondo\ Web\ 2.png);
+    background-position: center;
+  }
+  .Contacto_Main h1 {
+    margin-top: 10px;
+    margin-left: 18px;
+    color: $color_titulo
+  }
+  .Contacto_Divisorio1 {
+    display: flex;
+    flex-direction: column;
+    width: 34%;
+    height: 100%;
+  }
+  .Contacto_Divisorio2 {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: 100%;
+  }
+  .Contacto_Divisorio3 {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: 100%;
+    font-size: 25px;
+  }
+  .Contacto_Divisorio1 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    margin-left: 75px;
+    margin-top: 75px;
+  }
+  .Contacto_Divisorio1 div h2 {
+    margin-top: 20px;
+    color: white;
+  }
+  .Contacto_Divisorio2 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    background-color: transparent;
+    margin-left: 75px;
+    margin-top: 120px;
+  }
+  .Contacto_Divisorio2 div h2 {
+    margin-top: 20px;
+  }
+  .Contacto_Soporte {
+    color: rgb(199, 20, 20);
+  }
+  .main_grid {
+    grid-template-areas: "grid_1 grid_2 grid_3" "grid_4 grid_4 grid_4";
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: 300px, 400px;
+    height: 800px;
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-content: center;
+    background-image: url(../assets/Images/Fondo\ Web\ 2.png);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 10px;
+  }
+  .grid_item1 {
+    grid-area: grid_1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+  }
+  .contacto_ubicacion {
+    color: white;
+  }
+  .grid_item2 {
+    grid-area: grid_2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+  }
+  .grid_item3 {
+    grid-area: grid_3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+  }
+  .grid_item4 {
+    grid-area: grid_4;
+    display: flex;
+    flex-direction: row;
+  }

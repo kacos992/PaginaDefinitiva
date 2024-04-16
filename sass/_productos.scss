@@ -1,0 +1,247 @@
+$color_titulo : rgb(196, 62, 13);
+
+.productos_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1600px;
+    background-image: url(../assets/Images/Fondo\ Web\ 2.png);
+    background-position: center;
+  }
+  .productos_divisorio0 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    margin-left: 20px;
+  }
+  .productos_divisorio0 h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    color: $color_titulo;
+    margin-top: 20px;
+  }
+  .Productos_Divisorio1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 25px;
+  }
+  .productos_divisorio1_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+  }
+  .productos_divisorio1_2 {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+  }
+  .productos_divisorio1_2_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: normal;
+    height: 50px;
+    width: 100%;
+  }
+  .productos_divisorio1_2_1 img {
+    max-width: 190px;
+    max-height: 50px;
+  }
+  .productos_divisorio1_2_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 30px;
+  }
+  
+  .productos_divisorio1_2_2 p {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .Productos_Divisorio2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 25px;
+  }
+  .productos_divisorio2_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+  }
+  .productos_divisorio2_1 img {
+    width: 100%;
+    height: 500px;
+  }
+  .productos_divisorio2_2 {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+  }
+  .productos_divisorio2_2_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: normal;
+    height: 50px;
+    width: 100%;
+  }
+  .productos_divisorio2_2_1 img {
+    max-width: 150px;
+    max-height: 50px;
+  }
+  .productos_divisorio2_2_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 10px;
+  }
+  .productos_divisorio2_2_2 p {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .Productos_Divisorio2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 25px;
+    margin-top: 40px;
+  }
+  .productos_divisorio2_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    /** background-image: url("../assets/Images/pACK-cODIN\ IMAGEN\ WEB.png"); **/
+  }
+  .productos_divisorio2_1 img {
+    width: 100%;
+    height: 430px;
+  }
+  .productos_divisorio2_2 {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+  }
+  .productos_divisorio2_2_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: normal;
+    height: 50px;
+    width: 100%;
+  }
+  .productos_divisorio2_2_1 img {
+    max-width: 190px;
+    max-height: 50px;
+  }
+  .productos_divisorio2_2_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 390px;
+    width: 100%;
+    gap: 10px;
+  }
+  .productos_divisorio2_2_2 p {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .Productos_Divisorio3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 350px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 25px;
+    margin-top: 120px;
+  }
+  .productos_divisorio3_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+  }
+  .productos_divisorio3_1 img {
+    width: 100%;
+    height: 420px;
+  }
+  .productos_divisorio3_2 {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+  }
+  .productos_divisorio3_2_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: normal;
+    height: 50px;
+    width: 100%;
+  }
+  .productos_divisorio3_2_1 img {
+    max-width: 190px;
+    max-height: 50px;
+  }
+  .productos_divisorio3_2_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 100%;
+    gap: 10px;
+  }
+  .productos_divisorio3_2_2 p {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .Productos_Divisorio1 img {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 120px;
+  }
