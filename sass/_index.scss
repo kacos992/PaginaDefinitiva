@@ -2,7 +2,8 @@ $color_fondo_titulo : orange;
 
 .main_index {
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+}
   
     .portada {
         display: flex;
@@ -27,31 +28,52 @@ $color_fondo_titulo : orange;
         font-style: normal;
         font-size: 30px;
         background-color: $color_fondo_titulo;
+    .sub_color_titulo{
+        background-color: rgb(235, 234, 234);        
+        color: rgb(201, 115, 3); 
+        font-style:oblique;
+    }
     }.divisorio {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         box-shadow: 5px 5px 5px grey;
+        background-color: rgb(255, 255, 255);  
     }.corte {
         display: flex;
         justify-content: center;
+        justify-items: center;
         align-items: center;
+        text-align: center;
         background-image: url("../assets/Images/Corte.png");
         width: 100%;
-        height: 65px;
+        height: 60px;
         color: white;
         text-align: center;
         font-size: 18px;
         opacity: 70%;
         font-family: "Poppins", sans-serif;
+        font-weight: 350;
+        font-style: normal;
+        font-size: 10px;
+        margin-top: 7px;
     }.cuerpo {
         display: flex;
         flex-direction: row;
-        background-image: url(../assets/Images/fondo_Menu.jpg);
+        background-image: url(../assets/Images/Fondo\ Claro1.jpeg);
+        background-size:cover;
+        opacity: 0.9;
         width: 100%;
         height: 410px;
         background-size: 100% 110%;
+        font-family: "Poppins", sans-serif;
+        font-weight: 350;
+        font-style: normal;
+        font-size: 30px;
+        .cuerpo h4{
+            margin-top: 50px;
+        }
     } .contenedor1 {
         display: flex;
         flex-direction: column;
@@ -59,9 +81,13 @@ $color_fondo_titulo : orange;
         width: 50%;
         height: 80%;
         padding: 10px 10px 10px;
+        opacity: 100%;
     }.contenedor1 h2 {
         margin-top: 30px;
         margin-left: 10px;
+    .sub_color_contenedor1{
+        color: green;
+    }
     }.contenedor2 {
         display: flex;
         flex-direction: column;
@@ -72,6 +98,9 @@ $color_fondo_titulo : orange;
     }.contenedor2 h2 {
         margin-top: 30px;
         margin-right: 10px;
+    }
+    .sub_color_contenedor2{
+        color: rgb(180, 17, 5);
     }.imgGrano {
         width: 85%;
         height: 80%;

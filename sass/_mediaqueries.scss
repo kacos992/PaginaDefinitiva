@@ -4,20 +4,68 @@
     height: 150px;;
   }
 }
-@media (max-width: 961px) {
-
-  
+@media(max-width : 1149px){
+  .productos_divisorio1_imagen{
+    padding: 10px 10px 10px 10px;
+  }
+  .productos_divisorio1_texto{
+    font-size: 14px;
+  }
+}
+@media (max-width: 961px) { 
+  .productos_main{
+    height: 1900px;
+  }
+  .productos_divisorio1{
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+  .productos_divisorio1_imagen{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+  .productos_divisorio1_imagen img{
+    width: 70%;
+    height: 300px;
+  }
+  .productos_divisorio1_texto{
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 0px;
+    text-align: center;
+    text-justify:auto;
+    height: 300px;
+    width: 100%;
+    padding: auto;
+    font-size: 16px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  .main_grid{
+    width: 100%;
+  }
     .grid_item1 {
       width: 200px;
+      margin-left: 100px;
+    }
+      .contacto_ubicacion{
+        font-size: 20px;
     }
     .grid_item2 {
       width: 200px;
+      margin-left: 50px;
+      font-size: 5px;
     }
     .grid_item3 {
       width: 200px;
     }
     .grid_item4 {
-      width: 500px;
+      width: 760px;
+      margin-left: 100px
     }
     .Multimedia_main{
       height: 1570px;
@@ -85,9 +133,103 @@
     .nosotros_divisorio1 p {
       font-size: 15px;
     }
+    .main_grid{
+      margin-left: 0;
+    }
+    .grid_item1 {
+      width: 150px;
+      margin-left: 200px;
+    }
+      .contacto_ubicacion{
+        font-size: 10px;
+    }
+    .grid_item2 {
+      width: 150px;
+      margin-left: 100px;
+    }
+    .grid_item3 {
+      width: 150px;
+      margin-right: 300px;
+    }
+    .grid_item4 {
+      width: 600px;
+      margin-left: 200px
+    }
+    .contacto_ubicacion,.Contacto_Soporte{
+      font-size: 13px;
+    }
+    .contacto_letra{
+      font-size: 13px;
+    }
   }
-  @media (max-width: 653px)
+
+  @media (max-width: 666px)
   {
+    .productos_divisorio0{
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-left: 0px
+    }
+    .productos_divisorio0 h1{
+      font-size: 20px;
+      text-align: center;
+    }
+    .productos_divisorio1_imagen img{
+      width: 100%;
+      height: 100%;
+    }
+    .productos_divisorio1_texto{    
+      font-size: 14px;
+      gap: 5;
+    }
+    .main_grid{
+      
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+      margin-left: 0;
+      height: 1300px
+    }
+    .grid_item1 {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      height: 500px;
+      margin-left: 0;
+      
+    }
+      .contacto_ubicacion{
+        font-size: 20px;   
+    }
+    .grid_item2 {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      height: 500px;
+      margin-left: 0;
+    }
+    .grid_item3 {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      height: 500px;
+      margin-right: 0;
+    }
+    .grid_item4 {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      height: 500px;
+      margin-left: 0;
+    }
+    .contacto_ubicacion,.Contacto_Soporte{
+      font-size: 20px;
+    }
+    .contacto_letra{
+      font-size: 20px;
+    }
     
   }
   @media (max-width: 490px) {
@@ -99,7 +241,7 @@
       align-items: center;
     }
     .TituloPortada {
-      margin-top: 5px;
+      margin-top: 13px;
     }
   }
   @media (max-width: 470px) {
@@ -128,6 +270,20 @@
     .nosotros_divisorio1 p {
       font-size: 12px;
     }
+    .productos_main{
+      height: 1780px;
+    }
+    .productos_divisorio1_imagen{
+      height: 200px;
+      
+    }
+    .productos_divisorio1_texto{
+      height: 350px;
+    }
+    .productos_divisorio1_imagen img{
+      height: 100%;
+      width: 100%;
+    }
     .Multimedia_main section h1{
       text-align: center;
       margin-right: 25px;
@@ -146,7 +302,7 @@
     }
     .TituloPortada {
       font-size: 12px;
-      margin-top: 10px;
+      margin-top: 14px;
     }
     .corte h2 {
       font-size: 15px;

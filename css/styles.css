@@ -9,6 +9,12 @@ body {
   background: #252525;
   font-family: "Roboto";
 }
+body .nav-item:hover {
+  background-color: rgb(245, 182, 8);
+}
+body .nav-item:after {
+  background-color: rgb(245, 182, 8);
+}
 body header {
   display: flex;
   flex-direction: row;
@@ -20,44 +26,46 @@ body header {
   box-shadow: 5px 5px 5px grey;
   background-color: rgba(43, 42, 42, 0.9254901961);
   opacity: 86%;
+  /** nav #toggle, nav label {
+      display: none;
+      }
+      ul {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      list-style: none;
+      width: 100%;
+      height: 80px;
+      gap: 10px;
+      }  
+          nav ul li a {
+          text-decoration: none;
+          color: #444;
+          font-weight: bold;
+          margin-right: 35px;
+          color: whitesmoke;
+          }     
+      nav ul li a:hover {
+      color: orange;
+      }  
+  }**/
 }
 body header .logo {
   width: 200px;
 }
-body header nav #toggle, body header nav label {
-  display: none;
-}
-body header ul {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  list-style: none;
-  width: 100%;
-  height: 80px;
-  gap: 10px;
-}
-body header nav ul li a {
-  text-decoration: none;
-  color: #444;
-  font-weight: bold;
-  margin-right: 35px;
-  color: whitesmoke;
-}
-body header nav ul li a:hover {
-  color: orange;
-}
 
 footer {
   background-image: url("../assets/Images/fondo_footer.jpg");
+  /**position:absolute;**/
   position: absolute;
   width: 100%;
-  height: 360px;
+  height: 430px;
 }
 footer section h1 {
   text-align: center;
   color: white;
-  margin-top: 30px;
+  margin-top: 60px;
 }
 footer .DatosContacto {
   display: flex;
@@ -75,6 +83,7 @@ footer .imgMail {
 footer .mailDescripcion {
   color: whitesmoke;
   margin-top: 50px;
+  font-size: 20px;
 }
 footer .imgTelefono {
   margin-top: 15px;
@@ -84,6 +93,7 @@ footer .imgTelefono {
 footer .telefonoDescripcion {
   color: white;
   margin-top: 26px;
+  font-size: 20px;
 }
 footer .RedesSociales {
   display: flex;
@@ -93,6 +103,7 @@ footer .RedesSociales {
   height: 50px;
   gap: 30px;
   margin-bottom: 0px;
+  font-size: 20px;
 }
 footer .RedesSociales img {
   width: 30px;
@@ -131,6 +142,11 @@ footer .RedesSociales img {
   font-size: 30px;
   background-color: orange;
 }
+.TituloPortada .sub_color_titulo {
+  background-color: rgb(235, 234, 234);
+  color: rgb(201, 115, 3);
+  font-style: oblique;
+}
 
 .divisorio {
   display: flex;
@@ -138,29 +154,45 @@ footer .RedesSociales img {
   justify-content: center;
   align-items: center;
   box-shadow: 5px 5px 5px grey;
+  background-color: rgb(255, 255, 255);
 }
 
 .corte {
   display: flex;
   justify-content: center;
+  justify-items: center;
   align-items: center;
+  text-align: center;
   background-image: url("../assets/Images/Corte.png");
   width: 100%;
-  height: 65px;
+  height: 60px;
   color: white;
   text-align: center;
   font-size: 18px;
   opacity: 70%;
   font-family: "Poppins", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+  font-size: 10px;
+  margin-top: 7px;
 }
 
 .cuerpo {
   display: flex;
   flex-direction: row;
-  background-image: url(../assets/Images/fondo_Menu.jpg);
+  background-image: url(../assets/Images/Fondo\ Claro1.jpeg);
+  background-size: cover;
+  opacity: 0.9;
   width: 100%;
   height: 410px;
   background-size: 100% 110%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+  font-size: 30px;
+}
+.cuerpo .cuerpo h4 {
+  margin-top: 50px;
 }
 
 .contenedor1 {
@@ -170,11 +202,15 @@ footer .RedesSociales img {
   width: 50%;
   height: 80%;
   padding: 10px 10px 10px;
+  opacity: 100%;
 }
 
 .contenedor1 h2 {
   margin-top: 30px;
   margin-left: 10px;
+}
+.contenedor1 h2 .sub_color_contenedor1 {
+  color: green;
 }
 
 .contenedor2 {
@@ -189,6 +225,10 @@ footer .RedesSociales img {
 .contenedor2 h2 {
   margin-top: 30px;
   margin-right: 10px;
+}
+
+.sub_color_contenedor2 {
+  color: rgb(180, 17, 5);
 }
 
 .imgGrano {
@@ -237,6 +277,10 @@ h1 {
   font-weight: 200;
   font-style: normal;
   font-size: 20px;
+}
+.nosotros_main p span {
+  color: rgb(211, 70, 4);
+  font-weight: 500;
 }
 
 .nosotros_divisorio2 {
@@ -355,8 +399,11 @@ h1 {
   column-gap: 30px;
   row-gap: 30px;
   justify-content: center;
-  background-image: url(../assets/Images/Fondo\ Web\ 2.png);
+  background-color: rgb(242, 243, 243);
+  background-image: url(../assets/Images/Fondo\ Claro1.jpeg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
   padding-top: 100px;
   padding-bottom: 10px;
 }
@@ -368,6 +415,10 @@ h1 {
   justify-content: center;
   align-items: center;
   background-color: orangered;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 17px;
 }
 
 .contacto_ubicacion {
@@ -381,6 +432,11 @@ h1 {
   justify-content: center;
   align-items: center;
   background-color: transparent;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 17px;
+  /**background-color: rgb(23, 230, 230);**/
 }
 
 .grid_item3 {
@@ -390,6 +446,11 @@ h1 {
   justify-content: center;
   align-items: center;
   background-color: transparent;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 17px;
+  /**background-color: rgb(45, 192, 25);*/
 }
 
 .grid_item4 {
@@ -398,21 +459,28 @@ h1 {
   flex-direction: row;
 }
 
+.Contacto_Soporte, .contacto_ubicacion, .contacto_letra {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30px;
+}
+
 .productos_main {
-  display: flex;
+  /**display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center;**/
   width: 100%;
-  height: 1600px;
-  background-image: url(../assets/Images/Fondo\ Web\ 2.png);
+  height: 1500px;
+  background-image: url(../assets/Images/Fondo\ Claro1.jpeg);
   background-position: center;
 }
 
 .productos_divisorio0 {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
-  height: 200px;
+  height: 100px;
   margin-left: 20px;
 }
 
@@ -425,256 +493,37 @@ h1 {
   margin-top: 20px;
 }
 
-.Productos_Divisorio1 {
+.productos_divisorio1 {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  width: 100%;
-  height: 400px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  font-size: 25px;
+  margin-bottom: 80px;
 }
 
-.productos_divisorio1_1 {
+.productos_divisorio1_imagen {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  width: 100%;
   height: 400px;
-  width: 100%;
+  padding: 20px 20px 20px 20px;
 }
 
-.productos_divisorio1_2 {
-  display: flex;
-  flex-direction: column;
-  height: 400px;
-  width: 100%;
-}
-
-.productos_divisorio1_2_1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  align-items: normal;
-  height: 50px;
-  width: 100%;
-}
-
-.productos_divisorio1_2_1 img {
-  max-width: 190px;
-  max-height: 50px;
-}
-
-.productos_divisorio1_2_2 {
+.productos_divisorio1_texto {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  width: 100%;
-  gap: 30px;
-}
-
-.productos_divisorio1_2_2 p {
-  font-size: 20px;
-  margin-left: 15px;
-  margin-right: 15px;
-}
-
-.Productos_Divisorio2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   width: 100%;
   height: 400px;
+  padding: 20px 20px 20px 20px;
   font-family: "Poppins", sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
-  font-size: 25px;
+  font-size: 17px;
 }
 
-.productos_divisorio2_1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  height: 400px;
-  width: 100%;
-}
-
-.productos_divisorio2_1 img {
-  width: 100%;
-  height: 500px;
-}
-
-.productos_divisorio2_2 {
-  display: flex;
-  flex-direction: column;
-  height: 600px;
-  width: 100%;
-}
-
-.productos_divisorio2_2_1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  align-items: normal;
-  height: 50px;
-  width: 100%;
-}
-
-.productos_divisorio2_2_1 img {
-  max-width: 150px;
-  max-height: 50px;
-}
-
-.productos_divisorio2_2_2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  gap: 10px;
-}
-
-.productos_divisorio2_2_2 p {
-  font-size: 20px;
-  margin-left: 15px;
-  margin-right: 15px;
-}
-
-.Productos_Divisorio2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-  height: 400px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  font-size: 25px;
-  margin-top: 40px;
-}
-
-.productos_divisorio2_1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  height: 400px;
-  width: 100%;
-  /** background-image: url("../assets/Images/pACK-cODIN\ IMAGEN\ WEB.png"); **/
-}
-
-.productos_divisorio2_1 img {
-  width: 100%;
-  height: 430px;
-}
-
-.productos_divisorio2_2 {
-  display: flex;
-  flex-direction: column;
-  height: 600px;
-  width: 100%;
-}
-
-.productos_divisorio2_2_1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  align-items: normal;
-  height: 50px;
-  width: 100%;
-}
-
-.productos_divisorio2_2_1 img {
-  max-width: 190px;
-  max-height: 50px;
-}
-
-.productos_divisorio2_2_2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 390px;
-  width: 100%;
-  gap: 10px;
-}
-
-.productos_divisorio2_2_2 p {
-  font-size: 20px;
-  margin-left: 15px;
-  margin-right: 15px;
-}
-
-.Productos_Divisorio3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-  height: 350px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  font-size: 25px;
-  margin-top: 120px;
-}
-
-.productos_divisorio3_1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  height: 400px;
-  width: 100%;
-}
-
-.productos_divisorio3_1 img {
-  width: 100%;
-  height: 420px;
-}
-
-.productos_divisorio3_2 {
-  display: flex;
-  flex-direction: column;
-  height: 600px;
-  width: 100%;
-}
-
-.productos_divisorio3_2_1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  align-items: normal;
-  height: 50px;
-  width: 100%;
-}
-
-.productos_divisorio3_2_1 img {
-  max-width: 190px;
-  max-height: 50px;
-}
-
-.productos_divisorio3_2_2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 350px;
-  width: 100%;
-  gap: 10px;
-}
-
-.productos_divisorio3_2_2 p {
-  font-size: 20px;
-  margin-left: 15px;
-  margin-right: 15px;
-}
-
-.Productos_Divisorio1 img {
-  width: 100%;
-  height: 350px;
-  margin-bottom: 120px;
+.resaltar {
+  color: rgb(196, 62, 13);
+  font-weight: 400;
 }
 
 .Multimedia_main {
@@ -685,6 +534,7 @@ h1 {
   background-image: url(../assets/Images/Fondo\ Web\ 2.png);
   background-position: center;
   background-size: cover;
+  justify-content: center;
 }
 
 .Multimedia_main section h1 {
@@ -692,17 +542,19 @@ h1 {
   margin-left: 25px;
   color: rgb(196, 62, 13);
   font-family: "Poppins", sans-serif;
-  font-size: 30px;
-  font-weight: 100;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 28px;
 }
 
 .Multimedia_main section h3 {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   margin-top: 10px;
   text-align: center;
   color: rgb(255, 255, 255);
   font-size: 28px;
+  background-image: url("../assets/Images/Fondo oscuro3.jpeg");
   background-color: rgb(5, 119, 172);
   padding: 5px 5px 5px 5px;
 }
@@ -733,18 +585,68 @@ h1 {
     height: 150px;
   }
 }
+@media (max-width: 1149px) {
+  .productos_divisorio1_imagen {
+    padding: 10px 10px 10px 10px;
+  }
+  .productos_divisorio1_texto {
+    font-size: 14px;
+  }
+}
 @media (max-width: 961px) {
+  .productos_main {
+    height: 1900px;
+  }
+  .productos_divisorio1 {
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+  .productos_divisorio1_imagen {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+  .productos_divisorio1_imagen img {
+    width: 70%;
+    height: 300px;
+  }
+  .productos_divisorio1_texto {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px;
+    text-align: center;
+    text-justify: auto;
+    height: 300px;
+    width: 100%;
+    padding: auto;
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .main_grid {
+    width: 100%;
+  }
   .grid_item1 {
     width: 200px;
+    margin-left: 100px;
+  }
+  .contacto_ubicacion {
+    font-size: 20px;
   }
   .grid_item2 {
     width: 200px;
+    margin-left: 50px;
+    font-size: 5px;
   }
   .grid_item3 {
     width: 200px;
   }
   .grid_item4 {
-    width: 500px;
+    width: 760px;
+    margin-left: 100px;
   }
   .Multimedia_main {
     height: 1570px;
@@ -812,6 +714,99 @@ h1 {
   .nosotros_divisorio1 p {
     font-size: 15px;
   }
+  .main_grid {
+    margin-left: 0;
+  }
+  .grid_item1 {
+    width: 150px;
+    margin-left: 200px;
+  }
+  .contacto_ubicacion {
+    font-size: 10px;
+  }
+  .grid_item2 {
+    width: 150px;
+    margin-left: 100px;
+  }
+  .grid_item3 {
+    width: 150px;
+    margin-right: 300px;
+  }
+  .grid_item4 {
+    width: 600px;
+    margin-left: 200px;
+  }
+  .contacto_ubicacion, .Contacto_Soporte {
+    font-size: 13px;
+  }
+  .contacto_letra {
+    font-size: 13px;
+  }
+}
+@media (max-width: 666px) {
+  .productos_divisorio0 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .productos_divisorio0 h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .productos_divisorio1_imagen img {
+    width: 100%;
+    height: 100%;
+  }
+  .productos_divisorio1_texto {
+    font-size: 14px;
+    gap: 5;
+  }
+  .main_grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    height: 1300px;
+  }
+  .grid_item1 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    margin-left: 0;
+  }
+  .contacto_ubicacion {
+    font-size: 20px;
+  }
+  .grid_item2 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    margin-left: 0;
+  }
+  .grid_item3 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    margin-right: 0;
+  }
+  .grid_item4 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    margin-left: 0;
+  }
+  .contacto_ubicacion, .Contacto_Soporte {
+    font-size: 20px;
+  }
+  .contacto_letra {
+    font-size: 20px;
+  }
 }
 @media (max-width: 490px) {
   .main_index {
@@ -822,7 +817,7 @@ h1 {
     align-items: center;
   }
   .TituloPortada {
-    margin-top: 5px;
+    margin-top: 13px;
   }
 }
 @media (max-width: 470px) {
@@ -851,6 +846,19 @@ h1 {
   .nosotros_divisorio1 p {
     font-size: 12px;
   }
+  .productos_main {
+    height: 1780px;
+  }
+  .productos_divisorio1_imagen {
+    height: 200px;
+  }
+  .productos_divisorio1_texto {
+    height: 350px;
+  }
+  .productos_divisorio1_imagen img {
+    height: 100%;
+    width: 100%;
+  }
   .Multimedia_main section h1 {
     text-align: center;
     margin-right: 25px;
@@ -869,7 +877,7 @@ h1 {
   }
   .TituloPortada {
     font-size: 12px;
-    margin-top: 10px;
+    margin-top: 14px;
   }
   .corte h2 {
     font-size: 15px;
