@@ -11,61 +11,27 @@ $fuente_header:"Roboto";
   body {
     background: $fondo_header;
     font-family: $fuente_header;
+    .marcador_header{
+        color:aqua;
+    }
+    .nav-link{
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+    }
     .nav-item:hover {
         background-color: rgb(245, 182, 8);
+        .marcador_header{
+            color: rgb(0, 0, 0);
+        }
     }
-    .nav-item:after{
-        background-color: rgb(245, 182, 8);
-    }   
-    header{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        justify-items: center;
-        align-items: center;
-        background-position: center;
-        height: 80px;
-        box-shadow: 5px 5px 5px grey;
-        background-color: rgba(43, 42, 42, 0.9254901961);
-        opacity: 86%;
-        .logo {
-            width: 200px;
-        }
-       /** nav #toggle, nav label {
-        display: none;
-        }
-        ul {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        list-style: none;
-        width: 100%;
-        height: 80px;
-        gap: 10px;
-        }  
-            nav ul li a {
-            text-decoration: none;
-            color: #444;
-            font-weight: bold;
-            margin-right: 35px;
-            color: whitesmoke;
-            }     
-        nav ul li a:hover {
-        color: orange;
-        }  
-    }**/
-}
 }
 footer 
 {
     background-image: url("../assets/Images/fondo_footer.jpg");
-    /**position:absolute;**/
     position: absolute;
     width: 100%;
     height: 430px;
         section h1 {
-            
             text-align: center;
             color: white;
             margin-top: 60px;

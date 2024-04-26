@@ -98,6 +98,9 @@
       font-size: 18px;
       background-color: orange;
     }
+    .TituloPortada .sub_color_titulo{   
+      font-size: 20px;
+    }
   }
   @media (max-width: 768px) {
     .barra_navegacion li a {
@@ -236,12 +239,18 @@
     .main_index {
       height: 600px;
     }
+    .TituloPortada .sub_color_titulo{   
+      font-size: 15px;      
+    }
     .portada {
       background-position-y: 10px;
       align-items: center;
     }
     .TituloPortada {
-      margin-top: 13px;
+      margin-top: 12px;
+    }
+    .imgBolsa{
+      height: 250px;
     }
   }
   @media (max-width: 470px) {
@@ -296,6 +305,16 @@
       width: 300px;
       height: 150px;;
     }
+  }
+  @media (max-width: 384px){
+    .contenedor1 h2 , .contenedor2 h2{
+      font-size: 13px;
+    }
+    .imgBolsa{
+      height: 150px;
+    }
+    
+
   }
   @media (max-width: 371px) {
     .portada {

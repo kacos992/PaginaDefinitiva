@@ -29,9 +29,11 @@ $color_fondo_titulo : orange;
         font-size: 30px;
         background-color: $color_fondo_titulo;
     .sub_color_titulo{
-        background-color: rgb(235, 234, 234);        
-        color: rgb(201, 115, 3); 
-        font-style:oblique;
+        background-color:rgb(255, 255, 255);  
+        color: rgb(0, 0, 0);
+        font-size: 36px;
+        font-weight: 400;
+        
     }
     }.divisorio {
         display: flex;
