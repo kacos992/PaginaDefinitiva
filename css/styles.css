@@ -862,9 +862,10 @@ h1 {
   .Multimedia_main section h1 {
     text-align: center;
     margin-right: 25px;
+    margin-top: 45px;
   }
   .Multimedia_main section h3 {
-    margin-top: 50px;
+    margin-top: 60px;
   }
   .Videos_Circuito_Productivo iframe {
     width: 300px;
