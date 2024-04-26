@@ -4,7 +4,6 @@ $color_fondo_titulo : orange;
     display: flex;
     flex-direction: column;
 }
-  
     .portada {
         display: flex;
         flex-direction: column;
@@ -19,8 +18,6 @@ $color_fondo_titulo : orange;
         opacity: 800px;
     }.TituloPortada {
         color: rgb(255, 255, 255);
-        /**font-family: "Poppins", sans-serif;
-        font-size: 30px;**/
         margin-right: 20px;
         font-size: 30px;
         font-family: "Poppins", sans-serif;
@@ -33,7 +30,6 @@ $color_fondo_titulo : orange;
         color: rgb(0, 0, 0);
         font-size: 36px;
         font-weight: 400;
-        
     }
     }.divisorio {
         display: flex;
